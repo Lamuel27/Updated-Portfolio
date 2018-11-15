@@ -9,3 +9,7 @@
 body {
     background-color: darkgrey;
 }
+
+.collapsible-body {
+    background-color: white;
+}
