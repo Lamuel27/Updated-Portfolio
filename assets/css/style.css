@@ -13,3 +13,7 @@ body {
 .collapsible-body {
     background-color: white;
 }
+
+#label {
+    color: black;
+}
