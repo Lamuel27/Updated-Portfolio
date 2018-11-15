@@ -5,6 +5,13 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('.collapsible').collapsible();
 });
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+var instance = M.Sidenav.getInstance();
+instance.open();
+instance.close();
+instance.destroy();
 // var instance = M.Carousel.getInstance();
 
 // instance.next();
