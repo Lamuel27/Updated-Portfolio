@@ -8,6 +8,9 @@
 
 body {
     background-color: darkgrey;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .collapsible-body {
@@ -16,4 +19,30 @@ body {
 
 #label {
     color: black;
+}
+
+.waves-effect.waves-light.btn {
+    background-color: forestgreen;
+}
+
+.carousel-item.active {
+    color: black;
+    text-align: center;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+.page-footer {
+      margin-top:100%;
+  }
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6 {
+    text-decoration: underline;
 }
