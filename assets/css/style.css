@@ -18,7 +18,7 @@ body {
 }
 
 #label {
-    color: black;
+    color: #fff;
 }
 
 .waves-effect.waves-light.btn {
@@ -41,6 +41,7 @@ main {
 .pagination {
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
 }
 
 h6 {
