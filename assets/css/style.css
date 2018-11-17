@@ -47,3 +47,110 @@ main {
 h6 {
     text-decoration: underline;
 }
+
+.containerone {
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    margin-bottom: 5%
+  }
+  
+  
+  /* .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background:black;
+    background:rgba(0,0,0,0.8);
+    /* filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);*/
+    overflow: hidden;
+    width: 35%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .containerone:hover .overlay {
+    height: 100%;
+    width: 35%
+  }
+
+
+  .text {
+    color: white;
+    font-size: 1.6vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* img:hover {
+    webkit-filter: blur(4px);
+    filter: blur(4px);
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+/* .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+} */
+
+.bike {
+    float: right;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (max-width:320px) {
+    .text {
+        color: white;
+        font-size: 2.7vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    }
+    @media only screen and (max-width: 640px) {
+        .text {
+            color: white;
+            font-size: 2.7vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        }
+    @media screen and (max-width:980px) {
+        
+    }
