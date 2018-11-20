@@ -99,6 +99,10 @@ h6 {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .page-footer {
+      background-color: darkgrey;
+  }
 /* img:hover {
     webkit-filter: blur(4px);
     filter: blur(4px);
