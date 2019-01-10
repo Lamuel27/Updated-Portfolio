@@ -4,7 +4,7 @@
 }
 
 .nav-wrapper {
-    background-color: forestgreen;
+    background-color: cadetblue;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 .waves-effect.waves-light.btn {
-    background-color: forestgreen;
+    background-color: cadetblue;
 }
 
 .carousel-item.active {
