@@ -8,7 +8,9 @@ $(document).ready(function () {
 $(document).ready(function(){
     $('.sidenav').sidenav();
   });
-// var instance = M.Sidenav.getInstance();
+
+var elem = document.querySelector('.sidenav');
+var instance = M.Sidenav.getInstance(elem);
 // instance.open();
 // instance.close();
 // instance.destroy();
