@@ -45,6 +45,11 @@ main {
     color: #fff;
 }
 
+.carousel .carousel-item {
+    width:300px !important;
+    height: 300px !important;
+}
+
 h6 {
     text-decoration: underline;
 }
